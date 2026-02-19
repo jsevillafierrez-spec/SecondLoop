@@ -37,6 +37,7 @@ La aplicación incorpora una estrategia de testing completa que garantiza **robu
 npm test
 ```
 🏗️ Estructura del Proyecto
+```bash
 src/
  ├── componentes/
  │   ├── data/
@@ -46,11 +47,14 @@ src/
  ├── App.jsx
  ├── main.jsx
  └── setupTests.js
+```
 ⚙️ Instalación
+```bash
 git clone https://github.com/tu-usuario/tu-repositorio.git
 cd tu-repositorio
 npm install
 npm run dev
+```
 🛠️ Stack Tecnológico
 React
 
