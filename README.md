@@ -1,17 +1,90 @@
-# React + Vite
+🛍️ React SPA – Arquitectura Modular con Testing Completo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web desarrollada con React bajo una arquitectura modular y escalable basada en componentes reutilizables. El proyecto demuestra buenas prácticas en organización de código, separación de responsabilidades y cobertura de testing en múltiples niveles.
 
-Currently, two official plugins are available:
+La aplicación incluye gestión de productos con datos mock locales, sistema de favoritos, formulario de contacto, modales reutilizables y funcionalidad de modo oscuro.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Características Principales
 
-## React Compiler
+Arquitectura basada en componentes reutilizables
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Separación clara entre UI, layout y datos
 
-## Expanding the ESLint configuration
+Gestión de estado en frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# SecondLoop" 
+Implementación de Dark Mode
+
+Sistema de modales reutilizables
+
+Navegación por secciones (Productos, Favoritos, Contacto, Acerca de)
+
+Datos simulados sin dependencia de backend
+
+Cobertura de testing multinivel:
+
+Unit Testing
+
+Integration Testing
+
+Functional Testing
+
+End-to-End Testing
+
+🧪 Testing Strategy
+
+El proyecto incorpora una estrategia de testing completa que garantiza robustez y mantenibilidad:
+
+Tests unitarios para componentes individuales
+
+Tests de integración para validación de flujos
+
+Tests funcionales para interacción de usuario
+
+Tests E2E para validación de escenarios completos
+
+Ejecución de tests:
+
+npm test
+
+🏗️ Estructura del Proyecto
+src/
+ ├── componentes/
+ │   ├── data/
+ │   ├── layout/
+ │   ├── DarkModeSwitch.jsx
+ │   └── Modal.jsx
+ ├── App.jsx
+ ├── main.jsx
+ └── setupTests.js
+
+⚙️ Instalación
+git clone https://github.com/tu-usuario/tu-repositorio.git
+cd tu-repositorio
+npm install
+npm run dev
+
+🛠️ Stack Tecnológico
+
+React
+
+JavaScript (ES6+)
+
+CSS
+
+Jest
+
+Testing Library
+
+Framework de pruebas E2E
+
+🎯 Enfoque
+
+Este proyecto refleja competencias en:
+
+Diseño de arquitectura frontend escalable
+
+Organización profesional de código
+
+Implementación de testing robusto
+
+Desarrollo de SPA modernas mantenibles
