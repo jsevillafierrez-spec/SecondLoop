@@ -1,0 +1,47 @@
+.footer{
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--primario);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .informacion{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+
+        .redes{
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            .enlace{
+                border: none;
+                background-color: var(--primario);
+            }
+            .git{
+                border: none;
+                background-color: var(--primario);
+                width: 48px;
+                height: 48px;
+            }
+
+            .enlace:hover{
+                cursor: pointer;
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .derechos{
+        display: flex;
+        font-size: 12px;
+        font-weight: bold;
+        text-decoration: underline;
+        .dark &{
+            color: black;
+        }
+    }
+}

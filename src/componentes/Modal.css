@@ -1,0 +1,54 @@
+.overlay2 {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+	.modal2 {
+		width: 90%;
+		max-width: 1200px;
+		height: 70%;
+		display: flex;
+        align-items: center;
+		justify-content: center;
+		position: relative;
+        gap: 20px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 15px;
+        .dark &{
+            background-color: var(--shade-9);
+        }
+    }
+
+    .grid{
+        display: flex;
+    }
+    .imagen-modal {
+        width: 50vh;
+        height: auto;
+        object-fit: cover;
+    }
+    .info{
+        margin-left: 20px;
+        .dark &{
+            color: white;
+        }
+    }
+
+    .titulo{
+        text-decoration: underline;
+        font-size: 30px;
+    }
+
+    .cerrar:hover{
+        cursor: pointer;
+    }
+
+
