@@ -35,6 +35,7 @@ La aplicación incorpora una estrategia de testing completa que garantiza **robu
 
 ```bash
 npm test
+```
 🏗️ Estructura del Proyecto
 src/
  ├── componentes/
