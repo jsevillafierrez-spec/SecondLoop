@@ -55,26 +55,24 @@ cd tu-repositorio
 npm install
 npm run dev
 ```
-🛠️ Stack Tecnológico
-React
+---
 
-JavaScript (ES6+)
+## 🛠️ Stack Tecnológico
 
-CSS
+- **React**  
+- **JavaScript (ES6+)**  
+- **CSS**  
+- **Jest**  
+- **Testing Library**  
+- **Framework de pruebas E2E**
 
-Jest
+---
 
-Testing Library
+## 🎯 Enfoque y Aprendizaje
 
-Framework de pruebas E2E
-
-🎯 Enfoque y Aprendizaje
 Este proyecto refleja competencias en:
 
-Diseño de arquitectura frontend escalable
-
-Organización profesional de código
-
-Implementación de testing robusto
-
-Desarrollo de SPA modernas y mantenibles**
+- **Diseño de arquitectura frontend escalable**  
+- **Organización profesional de código**  
+- **Implementación de testing robusto**  
+- **Desarrollo de SPA modernas y mantenibles**
