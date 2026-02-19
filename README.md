@@ -12,7 +12,7 @@ Este proyecto demuestra buenas prácticas en **organización de código, separac
 - Gestión de estado en **frontend**
 - Implementación de **Dark Mode**
 - Sistema de **modales reutilizables**
-- Navegación por secciones: **Productos, Favoritos, Contacto, Acerca de**
+- Navegación por secciones: **Productos, Favoritos, Contacto**
 - Uso de **datos simulados (mock)** sin dependencia de backend
 - Cobertura de testing multinivel:
   - **Unit Testing**
